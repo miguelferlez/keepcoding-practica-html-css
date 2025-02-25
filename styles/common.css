@@ -1,7 +1,15 @@
 :root {
-    --bg-color: ;
-    --main-txt-color: ;
+    --bg-color: #0a121f;
+    --bg-color-light: #1b253a;
+    --text-color: #d2dae9;
+    --text-color-light: #f2f4f7;
+    --primary-color: #35db95;
+    --icon-color: #8d96b0;
+    --error-color: #db4035;
+}
 
+* {
+    box-sizing: border-box;
 }
 
 h1,
@@ -17,14 +25,8 @@ a {
     text-decoration: none;
 }
 
-li {
-    a {
-        display: flex;
-    }
-
-    a:hover {
-        opacity: 75%;
-    }
+li > a{
+    display: flex;
 }
 
 ul {
