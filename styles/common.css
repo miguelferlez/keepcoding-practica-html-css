@@ -6,6 +6,8 @@
     --primary-color: #35db95;
     --icon-color: #8d96b0;
     --error-color: #db4035;
+    font-family: 'Noto Sans', serif;
+    font-size: 16px;
 }
 
 * {
@@ -25,8 +27,15 @@ a {
     text-decoration: none;
 }
 
-li > a{
+li>a {
     display: flex;
+    transition: color 0.3s;
+    color: var(--text-color-light);
+}
+
+li>a:hover,
+li>a:focus {
+    color: var(--primary-color);
 }
 
 ul {

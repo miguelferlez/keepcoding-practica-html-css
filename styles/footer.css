@@ -4,23 +4,34 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    background-color: var(--bg-color-light);
+
     .list {
         display: flex;
         gap: 10px;
+
         svg {
             width: 32px;
             height: 32px;
+            transition: fill 0.3s;
+            fill: var(--icon-color);
+        }
+
+        svg:hover, a:focus>svg {
+            fill: var(--primary-color);
         }
     }
+
     .text {
         margin: 0;
         font-weight: 700;
+        color: var(--text-color);
     }
 }
 
 @media screen and (max-width: 335px) {
     .footer {
         flex-direction: column;
-        gap: 10px;
+        gap: 1rem;
     }
 }
