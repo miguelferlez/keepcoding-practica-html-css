@@ -1,33 +1,40 @@
 .header {
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     background-color: var(--bg-color-light);
-    font-family: 'Anek Latin', serif;
-    font-size: 1.2rem;
-    font-weight: 700;
 
-    svg {
+    .header-content {
+        margin: 0 auto;
+        max-width: 1024px;
+        padding: 1rem;
         display: flex;
-        width: 32px;
-        height: 32px;
-        fill: var(--text-color-light);
-    }
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Anek Latin', serif;
+        font-size: 1.2rem;
+        font-weight: 700;
 
-    .nav {
-        .list {
-            display: none;
+        svg {
+            display: flex;
+            width: 32px;
+            height: 32px;
+            fill: var(--text-color-light);
+        }
+
+        .nav {
+            .list {
+                display: none;
+            }
         }
     }
 }
 
 @media screen and (min-width: 768px) {
     .header {
-        .nav {
-            .list {
-                display: flex;
-                gap: 1rem;
+        .header-content {
+            .nav {
+                .list {
+                    display: flex;
+                    gap: 1rem;
+                }
             }
         }
     }
