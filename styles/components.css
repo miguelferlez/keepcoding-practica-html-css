@@ -1,0 +1,21 @@
+/* hamburger menu */
+
+
+
+/* buttons */
+.button {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    border: 2px solid var(--primary-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* forms */

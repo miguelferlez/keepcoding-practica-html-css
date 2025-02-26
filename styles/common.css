@@ -14,6 +14,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
 h1,
 h2,
 h3,
@@ -23,8 +28,21 @@ p {
     margin-bottom: 1.5rem;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    color: var(--text-color-light);
+}
+
 a {
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 li>a {
@@ -36,10 +54,4 @@ li>a {
 li>a:hover,
 li>a:focus {
     color: var(--primary-color);
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
