@@ -38,6 +38,7 @@
         position: relative;
         z-index: 1;
         height: 50%;
+        gap: 1rem;
 
         h2 {
             font-family: 'Anek Latin', serif;
