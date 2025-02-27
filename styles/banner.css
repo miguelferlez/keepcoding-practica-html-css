@@ -58,7 +58,16 @@
 
         .image-bg {
             background-image: url('../assets/img/banner-w-2593.jpg');
-            background-position: center;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .banner {
+        .content {
+            h2 {
+                padding: 0 1rem;
+            }
         }
     }
 }
