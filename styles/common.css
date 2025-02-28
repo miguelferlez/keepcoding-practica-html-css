@@ -68,6 +68,25 @@ li>a:focus {
     max-width: 768px;
 }
 
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.sr-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    position: absolute;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
 @media screen and (min-width: 768px) {
     h3 {
         text-align: left;

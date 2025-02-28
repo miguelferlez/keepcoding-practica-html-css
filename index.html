@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="./styles/footer.css">
     </head>
     <body>
+        <h1 class="sr-text">Dennis Nedry Portfolio</h1>
         <header class="header">
             <div class="header-content">
                 <a href="/">
@@ -122,6 +123,135 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <section class="form">
+                <h3>Get in touch</h3>
+                <form action="./response" method="post">
+                    <fieldset class="contact-data">
+
+                        <div class="field">
+                            <label for="name">Name *</label>
+                            <input 
+                            type="text" 
+                            name="formName" 
+                            id="name" 
+                            required 
+                            autocomplete="on" 
+                            placeholder="Your Name" 
+                            title="Introduce your name"
+                            >
+                        </div>
+                        <div class="field">
+                            <label for="surname">Surname *</label>
+                            <input 
+                            type="text" 
+                            name="formSurname" 
+                            id="surname" 
+                            required 
+                            autocomplete="on" 
+                            placeholder="Your Surname" 
+                            title="Introduce your surname"
+                            >
+                        </div>
+                        <div class="field">
+                            <label for="phone">Phone *</label>
+                            <input 
+                            type="tel" 
+                            name="formPhone" 
+                            id="phone" 
+                            required 
+                            autocomplete="on"
+                            placeholder="Your Phone Number" 
+                            title="Provide your phone number using the format XXX XXX-XXXX"
+                            pattern="[0-9]{3} [0-9]{3}-[0-9]{4}"
+                            aria-describedby="phone-hint" 
+                            >
+                            <span id="phone-hint">Provide your phone number using the format XXX XXX-XXXX</span>
+                        </div>
+                        <div class="field">
+                            <label for="github-user">GitHub username</label>
+                            <input 
+                            type="text"
+                            name="formGithubUser"
+                            id="github-user"
+                            placeholder="Your GitHub Username"
+                            title="Provide your GitHub tag using with the format @username"
+                            pattern="^@[^\s]+"
+                            aria-describedby="github-hint"
+                            >
+                            <span id="github-hint">Provide your GitHub tag using with the format @username</span>
+                        </div>
+                    </fieldset>
+                    <div class="field">
+                        <label for="prev-meeting">How did you meet me? *</label>
+                        <div class="choice">
+                            <label for="university">University</label>
+                            <input 
+                            type="radio" 
+                            name="formPrevMeeting" 
+                            id="university"
+                            required
+                            value="university"
+                            checked
+                            >
+                        </div>
+                        <div class="choice">
+                            <label for="keepcoding">KeepCoding Kick-Off</label>
+                            <input 
+                            type="radio" 
+                            name="formPrevMeeting" 
+                            id="keepcoding"
+                            required
+                            value="keepcoding"
+                            >
+                        </div>
+                        <div class="choice">
+                            <label for="school">School</label>
+                            <input 
+                            type="radio" 
+                            name="formPrevMeeting" 
+                            id="school"
+                            required
+                            value="school"
+                            >
+                        </div>
+                        <div class="choice">
+                            <label for="github">GitHub</label>
+                            <input 
+                            type="radio" 
+                            name="formPrevMeeting" 
+                            id="github"
+                            required
+                            value="github"
+                            >
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="about">More information *</label>
+                        <textarea 
+                        name="formAboutUser" 
+                        id="about"
+                        required
+                        placeholder="Enter message here (180 characters max.)"
+                        rows="10"
+                        maxlength="180"
+                        ></textarea>
+                    </div>
+                    <div class="field">
+                        <div class="choice">
+                            <label for="news">Subscribe to newsletter</label>
+                            <input 
+                            type="checkbox" 
+                            name="formNewsletterSub" 
+                            id="news"
+                            >
+                        </div>
+                    </div>
+                    <div class="form-buttons">
+                        <button class="button">Save form</button>
+                        <input class="button" type="reset" value="Reset form">
+                    </div>
+                </form>
             </section>
         </main>
         <footer class="footer">
