@@ -1,0 +1,54 @@
+.header {
+    margin-bottom: 3rem;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 5px 5px 0 0;
+        display: block;
+    }
+
+    figure {
+        margin: 0;
+        padding: 0;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg-color-light);
+        padding: 5px;
+        border-radius: 0 0 5px 5px;
+        height: 2rem;
+    }
+}
+
+.showcase {
+    margin-bottom: 1.5rem;
+
+    video {
+        animation: fadeIn 5s;
+        width: 100%;
+    }
+    
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
