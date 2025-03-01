@@ -38,6 +38,7 @@
 
     video {
         animation: fadeIn 5s;
+        border-radius: 10px;
         width: 100%;
     }
     
