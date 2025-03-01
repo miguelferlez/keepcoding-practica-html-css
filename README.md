@@ -1,20 +1,20 @@
-# Porfolio Web - Dennis Nedry
+# Portfolio Web
 
 Este es un proyecto de práctica para KeepCoding que utiliza **HTML5** y **CSS3**. En este portfolio se presentan los conceptos aprendidos durante el el módulo de Fundamentos Web HTML CSS.
 
 ## 📌 Tabla de contenidos
-- [Descripción](#descripción)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Tecnologías y Prácticas Utilizadas](#tecnologías-utilizadas)
-- [Capturas](#capturas)
-- [Autor](#autor)
+- [Descripción](#✏️-descripción)
+- [Instalación](#💡-instalación)
+- [Uso](#👋-uso)
+- [Tecnologías y Prácticas Utilizadas](#🛠️-tecnologías-utilizadas)
+- [Capturas](#📷-capturas)
+- [Autor](#🧑‍💻-autor)
 
 ## ✏️ Descripción
 
-Este proyecto es un portfolio web sobre Dennis Nedry, personaje de ficción de *Jurassic Park*, que muestra ejemplos del trabajo realizado únicamente con HTML y CSS.
+Este proyecto es un portfolio sobre **Dennis Nedry**, personaje de ficción de *Jurassic Park*, que muestra ejemplos del trabajo realizado únicamente con HTML y CSS.
 
-## Instalación
+## 💡 Instalación
 
 Puedes visualizar la página en este [enlace](https://miguelferlez.github.io/keepcoding-practica-html-css/).
 
