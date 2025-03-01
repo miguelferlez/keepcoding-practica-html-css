@@ -21,16 +21,22 @@
             transition: fill 0.3s;
             fill: var(--icon-color);
         }
-
-        svg:hover, a:focus>svg {
-            fill: var(--primary-color);
-        }
     }
 
     .text {
         margin: 0;
         font-weight: 700;
         color: var(--text-color);
+    }
+}
+
+@media screen and (hover:hover) {
+    .footer-content {
+        .list {
+            svg:hover, a:focus>svg {
+                fill: var(--primary-color);
+            }
+        }
     }
 }
 
