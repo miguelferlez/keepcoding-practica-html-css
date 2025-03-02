@@ -34,7 +34,7 @@ Para ver el proyecto en tu máquina local, sigue estos pasos:
 
 ## 👋 Uso
 
-Abre el archivo `index.html` en tu navegador para ver los distintos apartados del portfolio.
+Abre el archivo `index.html` en tu navegador para ver los distintos apartados del portfolio o accede a la página por este [enlace](https://miguelferlez.github.io/keepcoding-practica-html-css/)..
 
 ⚠️ **¡Atención! Rellenar y guardar el formulario conduce a un error 405**, no está diseñado para enviar los datos a un servidor real.
 
