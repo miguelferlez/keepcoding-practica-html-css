@@ -193,14 +193,6 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .choice {
-        label {
-            cursor: pointer;
-        }
-    }
-}
-
 @media screen and (hover:hover) {
     .button {
         cursor: pointer;
@@ -210,5 +202,11 @@
         border: 2px solid var(--primary-color);
         background-color: var(--bg-color);
         color: var(--text-color);
+    }
+
+    .choice {
+        label {
+            cursor: pointer;
+        }
     }
 }
