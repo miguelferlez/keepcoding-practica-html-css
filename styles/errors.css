@@ -1,0 +1,20 @@
+.error {
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+    h2 {
+        font-family: 'Anek Latin', serif;
+        font-size: 3rem;
+        color: var(--error-color);
+    }
+
+    .code {
+        font-size: 6rem;
+        margin: 0;
+        color: var(--error-color);
+    }
+    
+}
