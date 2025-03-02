@@ -42,7 +42,7 @@ Abre el archivo `index.html` en tu navegador para ver los distintos apartados de
 
 - HTML
     - ✅ Etiquetas semánticas
-    - ✅ Propiedades ARIA y accesibilidad
+    - ✅ Accesibilidad (Alt, ARIA, Skip To Content, contrastes de color, etc)
     - ✅ Formularios y validación de datos
     - ✅ Grid Display
     - ✅ Responsive Images
