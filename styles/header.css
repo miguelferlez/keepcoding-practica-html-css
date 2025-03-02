@@ -7,7 +7,7 @@
         padding: 1rem;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         font-family: 'Anek Latin', serif;
         font-size: 1.2rem;
         font-weight: 700;
@@ -30,6 +30,8 @@
 @media screen and (min-width: 768px) {
     .header {
         .header-content {
+            justify-content: space-between;
+            
             .nav {
                 .list {
                     display: flex;
